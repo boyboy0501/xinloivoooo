@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xin lỗiiii nhoaaa 🥺</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+    h1 {
+      color: #ff4081;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 200px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      margin: 10px;
+      font-size: 1.2em;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    button:hover {
+      background-color: #f50057;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <img src="https://i.pinimg.com/originals/bb/8d/ff/bb8dff79c347a3bd3e24ce6649b3dff3.gif" alt="Xin lỗi nhaaa" />
+    <h1>Anhhhh xin lỗiiii màaaa 🥺</h1>
+    <div id="buttons">
+      <button id="forgiveBtn" onclick="forgive()">Emmm tha lỗi choaa anh nhoaaa 💖</button>
+      <button id="noBtn" onclick="notForgive()">Đẹooo thaa 😤</button>
+    </div>
+  </div>
+
+  <script>
+    let noCount = 0;
+    const noWords = [
+      "Đẹooo thaa 😤",
+      "Déoo thaaa 😒",
+      "Khumm thaaa đâu 😑",
+      "Honggg thaaa 😠",
+      "Khum thaaa đâuu nhaa 😤"
+    ];
+
+    function forgive() {
+      document.body.innerHTML = `
+        <h1>Yeee cuối cùng em cũng tha rồiii 🥰💖</h1>
+        <p>Yêuuu em nhiềuuu lắmm 😘</p>
+        <img src=
